@@ -1,0 +1,37 @@
+# SwordChips PvP balance settings
+max-chips: 4
+# Chance values are percentages (0-100).
+chances:
+  fire: 18
+  frost: 12
+  lightning: 8
+  lifesteal: 8
+  resistance: 8
+  sharpness: 100
+  swiftness: 100
+  poison: 10
+  impact: 12
+  critical: 8
+cooldowns-seconds:
+  fire: 5
+  frost: 6
+  lightning: 8
+  lifesteal: 4
+  resistance: 5
+  sharpness: 0
+  swiftness: 0
+  poison: 7
+  impact: 5
+  critical: 6
+effects:
+  fire-seconds: 2
+  frost-seconds: 2
+  poison-seconds: 2
+  lifesteal-hearts: 0.5
+  sharpness-bonus-damage: 1.0
+  lightning-bonus-damage: 1.5
+  critical-bonus-damage: 2.0
+  resistance-reduction-percent: 20
+  impact-horizontal: 0.55
+  swiftness-seconds: 3
+  swiftness-amplifier: 0

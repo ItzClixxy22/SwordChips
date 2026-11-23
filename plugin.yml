@@ -1,0 +1,14 @@
+name: SwordChips
+version: 1.0.0
+main: nl.swordchips.SwordChips
+api-version: '1.21.11'
+author: OpenAI
+description: PvP sword chip upgrades for Paper 1.21.11
+commands:
+  swordchips:
+    description: SwordChips admin and player commands
+    usage: /swordchips <give|chip|reload>
+    aliases: [sc]
+permissions:
+  swordchips.admin:
+    default: op
